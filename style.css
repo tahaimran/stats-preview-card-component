@@ -2,7 +2,7 @@ body {
     background-color: hsl(233, 47%, 7%);
     color: beige;
     font-family: 'Inter', sans-serif;
-
+    margin-top: 150px;
 }
 
 
@@ -74,6 +74,9 @@ div .list {
 @media only screen and (max-width:600px) {
     * {
         text-align: center;
+    }
+    body{
+            margin-top: 50px;
     }
 
   div  .list {
